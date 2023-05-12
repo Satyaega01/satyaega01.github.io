@@ -99,6 +99,10 @@ header.scrolled {
 
 /* ---------- start featured ---------- */
 
+#featured > h1 {
+  color: white;
+}
+
 .stack {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -106,8 +110,30 @@ header.scrolled {
   place-items: center;
 }
 
-#featured h1 {
-  color: white;
+.card {
+  width: 300px;
+  height: 300px;
+  background-color: white;
+  border-radius: 10px;
+  color: black;
+}
+
+.container-card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.container-card > img {
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.container-card > p,
+h4 {
+  font-size: 12px;
+  margin: 0;
 }
 
 /* ---------- end featured ---------- */
