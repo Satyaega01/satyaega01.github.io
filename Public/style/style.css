@@ -96,3 +96,18 @@ header.scrolled {
 }
 
 /* ---------- end jumbotron ---------- */
+
+/* ---------- start featured ---------- */
+
+.stack {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 5px;
+  place-items: center;
+}
+
+#featured h1 {
+  color: white;
+}
+
+/* ---------- end featured ---------- */
