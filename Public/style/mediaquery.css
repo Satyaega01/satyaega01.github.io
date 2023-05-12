@@ -1,0 +1,42 @@
+@media only screen and (max-width: 1200px) {
+  /*Tablets [601px -> 1200px]*/
+}
+@media only screen and (max-width: 600px) {
+  .container {
+    padding: 3px 30px;
+  }
+  /* ---------- start header ---------- */
+  /* start corner logo ----- */
+  #cornerlogo img {
+    width: 30px;
+  }
+  /* end corner logo ----- */
+
+  /* navbar ----- */
+  header nav ul li a {
+    font-size: 13px;
+  }
+  /* end navbar ----- */
+  /* ---------- end header ---------- */
+
+  /* ---------- start jumbotron ---------- */
+  #jumbotron {
+    height: 400px;
+    background-size: 1000px;
+  }
+  #jumbotron h1 {
+    font-size: 30px;
+  }
+  /* ---------- end jumbotron ---------- */
+
+  /* ---------- start featured ---------- */
+  .groupcard {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  /* ---------- end featured ---------- */
+}
+@media only screen and (max-width: 425px) {
+  /*Small smartphones [325px -> 425px]*/
+}
