@@ -120,11 +120,42 @@ header.scrolled {
   color: white;
 }
 
+.slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10px;
+}
+
+.wrapper {
+  max-width: 1230px;
+  position: relative;
+}
+
+.wrapper .groupcard {
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.wrapper i {
+  cursor: pointer;
+  text-align: center;
+  position: absolute;
+}
+
+.wrapper i:first-child {
+  left: -23px;
+  transform: translateY(140px);
+}
+
+.wrapper i:last-child {
+  right: -23px;
+  transform: translateY(-140px);
+}
+
 .groupcard {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  display: flex;
   gap: 10px;
-  place-items: center;
 }
 
 .card {
