@@ -135,6 +135,16 @@ header.scrolled {
 .wrapper .groupcard {
   white-space: nowrap;
   overflow: hidden;
+  scroll-behavior: smooth;
+}
+
+.groupcard.dragging {
+  cursor: grab;
+  scroll-behavior: auto;
+}
+
+.groupcard.dragging .card {
+  pointer-events: none;
 }
 
 .wrapper i {
@@ -146,6 +156,7 @@ header.scrolled {
 .wrapper i:first-child {
   left: -23px;
   transform: translateY(140px);
+  display: none;
 }
 
 .wrapper i:last-child {
