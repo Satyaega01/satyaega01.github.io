@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1370px) {
   .container {
     padding: 3px 30px;
   }
@@ -41,7 +41,7 @@
   /* ---------- end featured ---------- */
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 950px) {
   /* ---------- start featured ---------- */
   .groupcard {
     grid-template-columns: 1fr 1fr;
@@ -49,7 +49,7 @@
   /* ---------- end featured ---------- */
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 650px) {
   .container {
     padding: 3px 30px;
   }
