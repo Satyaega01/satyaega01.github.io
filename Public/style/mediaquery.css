@@ -1,6 +1,54 @@
 @media only screen and (max-width: 1200px) {
-  /*Tablets [601px -> 1200px]*/
+  .container {
+    padding: 3px 30px;
+  }
+  /* ---------- start header ---------- */
+  /* navbar ----- */
+  header nav ul li a {
+    font-size: 15px;
+  }
+  /* end navbar ----- */
+  /* ---------- end header ---------- */
+
+  /* ---------- start jumbotron ---------- */
+  #jumbotron {
+    height: 400px;
+    background-size: 1000px;
+  }
+  #jumbotron h1 {
+    font-size: 30px;
+  }
+  /* ---------- end jumbotron ---------- */
+
+  /* ---------- start featured ---------- */
+  .groupcard {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .card {
+    width: 300px;
+  }
+
+  .card > iframe {
+    width: 300px;
+  }
+
+  .container-card > img {
+    width: 277px;
+    height: 200px;
+  }
+  /* ---------- end featured ---------- */
 }
+
+@media only screen and (max-width: 900px) {
+  /* ---------- start featured ---------- */
+  .groupcard {
+    grid-template-columns: 1fr 1fr;
+  }
+  /* ---------- end featured ---------- */
+}
+
 @media only screen and (max-width: 600px) {
   .container {
     padding: 3px 30px;
@@ -51,5 +99,33 @@
   /* ---------- end featured ---------- */
 }
 @media only screen and (max-width: 425px) {
-  /*Small smartphones [325px -> 425px]*/
+  /* ---------- start jumbotron ---------- */
+  #jumbotron p {
+    font-size: 10px;
+  }
+  /* ---------- end jumbotron ---------- */
+
+  /* ---------- start featured ---------- */
+
+  .groupcard {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .card {
+    width: 150px;
+    height: 150px;
+  }
+
+  .card > iframe {
+    width: 150px;
+    height: 150px;
+  }
+
+  .container-card > img {
+    width: 130px;
+    height: 40px;
+  }
+
+  /* ---------- end featured ---------- */
 }
