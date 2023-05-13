@@ -9,7 +9,7 @@ const arrowIcons = document.querySelectorAll(".wrapper i");
 let scrollWidth = carousel.scrollWidth - carousel.clientWidth;
 const ShowHideIcons = () => {
   arrowIcons[0].style.display = carousel.scrollLeft == 0 ? "none" : "block";
-  arrowIcons[0].style.display = carousel.scrollLeft == scrollWidth ? "none" : "block";
+  arrowIcons[1].style.display = carousel.scrollLeft == scrollWidth ? "none" : "block";
 };
 let isDragStart = false,
   prevPageX,
