@@ -23,11 +23,8 @@
   .container-card > img {
     width: 305px;
   }
-  .wrapper i:first-child {
-    transform: translateY(160px);
-  }
-  .wrapper i:last-child {
-    transform: translateY(-160px);
+  .projectgroup {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
 }
 
@@ -43,11 +40,8 @@
   .container-card > img {
     width: 370px;
   }
-  .wrapper i:first-child {
-    transform: translateY(180px);
-  }
-  .wrapper i:last-child {
-    transform: translateY(-190px);
+  .projectgroup {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
 
@@ -71,6 +65,13 @@
   .wrapper {
     max-width: 500px;
   }
+  .projectgroup {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .projectcard > a > img {
+    width: 150px;
+    height: 100px;
+  }
 }
 @media only screen and (max-width: 525px) {
   #jumbotron p {
@@ -87,10 +88,15 @@
   .container-card > img {
     width: 270px;
   }
-  .wrapper i:first-child {
-    transform: translateY(120px);
+  #project > h1 {
+    font-size: 25px;
   }
-  .wrapper i:last-child {
-    transform: translateY(-160px);
+  .projectgroup {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+  }
+  .projectcard > a > img {
+    width: 65px;
+    height: 65px;
   }
 }
